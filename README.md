@@ -29,65 +29,6 @@
   <br/><br/>
 </div>
 
-<div>
----
-
-## 과제 제출 세팅하기 (최초 1회만)
-
-```bash
-$ git checkout -b "브랜치명"
-$ git push origin "브랜치명"
-```
-
-checkout : 사용할  브랜치 지정 
-
-checkout -b : 브랜치 생성과 체크아웃을 동시에! 
-
-```bash
-$ git push origin "브랜치명"
-```
-
-origin(원격저장소)에 <브랜치명> 브랜치를 푸쉬
-  
-![image](https://user-images.githubusercontent.com/71435571/161270054-138e583b-5c6f-4e8b-847e-a4074d58c16d.png)
-
-클릭 후 자신의 브랜치가 잘 추가 되었는지 확인 ❤
-
----
-
-## 과제 제출하기 ‼‼‼‼‼‼
-
-### 1. ✌**자신의 브랜치**✌로 원격 저장소에 업로드
-
-```bash
-$ git add .
-$ git commit -m "커밋 메세지를 입력해주세용"
-$ git push origin "브랜치명"
-```
-
-<aside>
-💡 꼭 자신의 폴더 안에 작업물을 넣어주세요!
-
-</aside>
-
-### 2. 레포 접속하여 Pull request 클릭
-
-<img src="https://user-images.githubusercontent.com/71435571/161269030-07a92256-9836-43fd-86d7-dfe4353e2403.png"></img>
-
-브랜치 클릭 후 new pull request 도 가능 (아래 사진 참고!!)
-
-<img src="https://user-images.githubusercontent.com/71435571/161269325-462881cb-5f9a-4eea-a20d-9300cd7531e4.png"></img>
-
-### 3. 내용 작성 후 Create pull request 클릭!
-
-![image](https://user-images.githubusercontent.com/71435571/161269447-8b5da43f-3ebd-4d82-b455-cc4a801ec23f.png)
-
-### 완료 🎉
-
-![image](https://user-images.githubusercontent.com/71435571/161269496-1c824e78-eae2-4595-a83c-ab2ba2dfc24a.png)
-
----
- 
 </div>
 
 <div align="center"> 

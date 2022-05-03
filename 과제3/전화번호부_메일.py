@@ -45,19 +45,8 @@ def _weahter():
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 465
 smtp = smtplib.SMTP_SSL(SMTP_SERVER, SMTP_PORT)
-smtp.login("stephenyi28@gmail.com", "bzyfywgzqsbvvhxh")
+smtp.login("id", "ps")
 reg = "^[a-zA-Z0-9.+_-]+@[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$"
-# message = EmailMessage()
-# message.set_content(data["name"], data["weather"][0]["description"])
-# message["Subject"] ="제목없음"
-# message["From"] = "stephenyi28@gmail.com"
-# message["To"] = "stephenyi28@gmail.com"
-# with open("rankresult.txt", "rb") as text:
-#     text_file = text.read()
-# message.add_attachment(text_file, maintype='text', subtype='txt')
-#
-# smtp = smtplib.SMTP_SSL(SMTP_SERVER, SMTP_PORT)
-# smtp.login("stephenyi28@gmail.com", "bzyfywgzqsbvvhxh")
 
 
 book = []
@@ -103,7 +92,7 @@ def delete():
 
 
 def send():
-    sendEmail("stephenyi28@gmail.com")
+    sendEmail("id")
     # smtp.quit()
 
 
@@ -116,7 +105,7 @@ def sendEmail(addr):
                 message = EmailMessage()
                 message.set_content(_weahter())
                 message["Subject"] = "제목없음"
-                message["From"] = "stephenyi28@gmail.com"
+                message["From"] = "id"
                 message["To"] = addr
                 save_fav()
                 with open("rankresult.text", "rb") as text:
